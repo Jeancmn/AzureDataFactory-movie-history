@@ -13,6 +13,16 @@
 					"p_enviroment": "Production",
 					"p_file_date": "2024-12-30"
 				}
+			},
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline_ingest_movie_his_data",
+					"type": "PipelineReference"
+				},
+				"parameters": {
+					"p_enviroment": "Production",
+					"p_file_date": "2024-12-23"
+				}
 			}
 		],
 		"type": "ScheduleTrigger",
@@ -20,7 +30,7 @@
 			"recurrence": {
 				"frequency": "Week",
 				"interval": 1,
-				"startTime": "2025-10-18T09:15:00Z",
+				"startTime": "2025-10-18T09:16:00Z",
 				"timeZone": "UTC"
 			}
 		}
